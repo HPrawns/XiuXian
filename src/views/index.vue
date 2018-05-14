@@ -38,7 +38,7 @@
                 </h1>
                 <h2>
                     <p>Welcome to your iView app!</p>
-                    <Button type="ghost" @click="handleStart">Start iView</Button>
+                    <Button type="ghost" @click="handleStart">开始</Button>
                 </h2>
             </Col>
         </Row>
@@ -49,8 +49,8 @@
         methods: {
             handleStart() {
                 this.$Modal.info({
-                    title: 'Bravo',
-                    content: 'Now, enjoy the convenience of iView.'
+                    title: '提示框',
+                    content: '欢迎使用'
                 });
             }
         }
